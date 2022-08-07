@@ -1,7 +1,7 @@
 from enum import Enum
 
-token = "enter your token here"
-db_file = "database.vdb"
+token = "5528109695:AAGwHhlTVCUpsCAx2fbVoX5ltreiNOmDzzg"
+db_file = "../database.vdb"
 
 YES_LIST = ['да', 'конечно', 'ага', 'пожалуй']
 NO_LIST = ['нет', 'нет, конечно', 'ноуп', 'найн']

@@ -1,5 +1,5 @@
 from vedis import Vedis
-import config
+from bot_app import config
 
 
 def get_current_state(user_id):
