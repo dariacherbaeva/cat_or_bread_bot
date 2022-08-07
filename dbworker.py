@@ -15,6 +15,5 @@ def set_state(user_id, value):
         try:
             db[user_id] = value
             return True
-        except:
-            # тут желательно как-то обработать ситуацию
-            return False
+        except Exception:
+            raise False
