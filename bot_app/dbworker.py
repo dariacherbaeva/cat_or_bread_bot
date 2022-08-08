@@ -3,7 +3,7 @@ import config
 
 
 def get_current_state(user_id):
-    with Vedis(config.vedis_db_file) as db:
+    with Vedis(config.VEDIS_DB_FILE) as db:
         try:
             return db[user_id].decode()
         except KeyError:
@@ -11,7 +11,7 @@ def get_current_state(user_id):
 
 
 def set_state(user_id, value):
-    with Vedis(config.vedis_db_file) as db:
+    with Vedis(config.VEDIS_DB_FILE) as db:
         try:
             db[user_id] = value
             return True

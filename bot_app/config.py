@@ -1,9 +1,9 @@
 from enum import Enum
 
-bot_id = '5528109695'
-token = "5528109695:AAGwHhlTVCUpsCAx2fbVoX5ltreiNOmDzzg"
-vedis_db_file = "../database.vdb"
-sqlite_db_file = 'C:\\Users\\user1\\PycharmProjects\\cat_or_bread_bot\\db\\cat_bread_bot_db.db'
+BOT_ID = '5528109695'
+TOKEN = "5528109695:AAGwHhlTVCUpsCAx2fbVoX5ltreiNOmDzzg"
+VEDIS_DB_FILE = "../database.vdb"
+SQLITE_DB_FILE = 'C:\\Users\\user1\\PycharmProjects\\cat_or_bread_bot\\db\\cat_bread_bot_db.db'
 
 YES_LIST = ['да', 'конечно', 'ага', 'пожалуй']
 NO_LIST = ['нет', 'нет, конечно', 'ноуп', 'найн']
@@ -15,6 +15,8 @@ CAT_RESULT = "Это кот, а не хлеб, не ешь его!"
 BREAD_RESULT = "Это хлеб, а не кот, ешь его!"
 ERROR = "Я тебя не понял, ответь ещё раз, пожалуйста"
 RESTART = "Если хочешь спросить меня ещё раз, введи команду /reset!"
+
+URL = 'https://api.telegram.org/bot'
 
 
 class States(Enum):
