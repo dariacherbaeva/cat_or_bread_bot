@@ -2,7 +2,7 @@ import sqlite3
 
 from flask import Flask, request
 from telethon import TelegramClient
-from telethon.tl.types import InputPeerUser, InputPeerChannel
+from telethon.tl.types import InputPeerUser
 
 from bot_app import config
 from api_helpers import get_chat_last_message_by_bot
