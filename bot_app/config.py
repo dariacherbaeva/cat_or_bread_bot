@@ -3,7 +3,7 @@ from enum import Enum
 BOT_ID = '5528109695'
 TOKEN = "5528109695:AAGwHhlTVCUpsCAx2fbVoX5ltreiNOmDzzg"
 VEDIS_DB_FILE = "../database.vdb"
-SQLITE_DB_FILE = 'C:\\Users\\user1\\PycharmProjects\\cat_or_bread_bot\\db\\cat_bread_bot_db.db'
+SQLITE_DB_FILE = '../db/cat_bread_bot_db.db'
 
 YES_LIST = ['да', 'конечно', 'ага', 'пожалуй']
 NO_LIST = ['нет', 'нет, конечно', 'ноуп', 'найн']
